@@ -37,7 +37,7 @@
                 <!--Run the predefined Maven goals to release the project (by default, deploy site-deploy) -->
                 <!--In Maven Lifecycle : we have deploy that will run package-verify-istall-site-deploy, I will override it so that it will run just install -->
                 <configuration>
-                    <goals>Install</goals>
+                    <goals>install</goals>
                     <autoVersionSubmodules>true</autoVersionSubmodules>
                 </configuration>
             </plugin>

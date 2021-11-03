@@ -10,5 +10,10 @@ public class IndexController {
 //  thymeleaf is going to look for a template called index
         return "index";
     }
+    @RequestMapping("/oups")
+    public String oupsHandler()
+    {
+        return "notimplemented";
+    }
 
 }
